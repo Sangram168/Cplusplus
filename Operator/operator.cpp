@@ -62,11 +62,19 @@ int main() {
     cout << "~a " << (~a) <<endl;
     cout << "a^b " << (a^b) <<endl;
 
-    // left and right shift operator
+    // Left and right shift operator
 
     cout <<(17>>1)<<endl;
     cout<<(17>>2)<<endl;
     cout<<(19<<1)<<endl;
     cout<<(19<<2)<<endl;
+
+    // Post increment and decrement
+   
+    int i = 3;
+    cout<< i++ <<endl;
+    cout<< i <<endl;
+    cout<< i--<<endl;
+    cout<< i <<endl;
 
 }
