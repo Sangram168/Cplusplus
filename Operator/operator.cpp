@@ -77,4 +77,10 @@ int main() {
     cout<< i--<<endl;
     cout<< i <<endl;
 
+    // Pre increment and decrement
+
+    int j = 5;
+    cout<< ++j <<endl;
+    cout<< --j <<endl;
+
 }
