@@ -35,6 +35,7 @@ int main() {
     cout << sixth << endl;
 
     // Assignment Operator
+
     int x = 5;
     cout << x << endl;
     cout << (x += 5) << endl;
@@ -49,6 +50,17 @@ int main() {
     int weight = 72;
     cout << ((age > 12) && (weight == 72))<<endl;
     cout << ((age > 34) || (weight == 72))<<endl;
-    cout << !(age == 23) <<endl; 
+    cout << !(age == 23) <<endl;
+    
+    // Bitwise Operator
+
+    int h = 2;
+    int k = 3;
+
+    cout<< "a&b " << (a&b) <<endl;
+    cout << "a|b " << (a|b) <<endl;
+    cout << "~a " << (~a) <<endl;
+    cout << "a^b " << (a^b) <<endl;
+
 
 }
