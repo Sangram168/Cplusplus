@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    
+
     // int n;
     // cin >> n;
 
@@ -69,18 +69,32 @@ int main(){
 
     //     i++;
     //  }
-
+    
     // For Loop
+    
+    // int n;
+    // cout<< "Enter the number of n"<<endl;
+    // cin>> n;
+
+    // cout<< "Printing count from 1 to n"<<endl;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     cout<< i <<endl;
+    // }
+
+    // Q- Fibonacci series
 
     int n;
-    cout<< "Enter the number of n"<<endl;
-    cin>> n;
-
-    cout<< "Printing count from 1 to n"<<endl;
-    for (int i = 1; i <= n; i++)
+    cin>>n;
+    int a = 0;
+    int b = 1;
+    cout<<a << " " <<b<<" ";
+    for (int i = 1; i<=n; i++)
     {
-        cout<< i <<endl;
+        int nextNumber = a+b;
+        cout<< nextNumber<<" ";
+        a = b;
+        b = nextNumber;
     }
-
 
 }
