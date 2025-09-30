@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-
+    
     // int n;
     // cin >> n;
 
@@ -53,21 +53,34 @@ int main(){
 
     // Question - Check number prime or not
 
+    // int n;
+    // cin >> n;
+
+    // int i = 2;
+    //  while (i < n)
+    //  {
+    //     if(n%i==0){
+    //         cout << "not prime for "<< i << endl;
+    //     }
+
+    //     else {
+    //         cout << "prime for "<< i << endl;
+    //     }
+
+    //     i++;
+    //  }
+
+    // For Loop
+
     int n;
-    cin >> n;
+    cout<< "Enter the number of n"<<endl;
+    cin>> n;
 
-    int i = 2;
-     while (i < n)
-     {
-        if(n%i==0){
-            cout << "not prime for "<< i << endl;
-        }
+    cout<< "Printing count from 1 to n"<<endl;
+    for (int i = 1; i <= n; i++)
+    {
+        cout<< i <<endl;
+    }
 
-        else {
-            cout << "prime for "<< i << endl;
-        }
-
-        i++;
-     }
 
 }
